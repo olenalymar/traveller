@@ -1,0 +1,14 @@
+.news {
+	background: #fafafa url("../images/news-bg.png") center bottom no-repeat;
+}
+
+.container-news {
+	padding-top: 130px;
+	padding-bottom: 120px;
+}
+
+.be-in-touch-news {
+	margin: 0 auto;
+    max-width: 880px;
+}
+

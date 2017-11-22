@@ -1,0 +1,179 @@
+@media screen and (max-width: 1366px) {
+	.header {
+	}
+
+
+}
+
+@media screen and (max-width: 1200px) {
+	.banner-heading {
+		font-size: 130px;
+		padding-left: 27%;
+	}
+	.yellow-text {
+		font-size: 230px;
+	}
+	/*.be-in-touch .subheading {
+		color: #98999a;
+	}*/
+	.container-introducing {
+		flex-direction: column;
+		max-width: 1200px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.introducing-content {
+		width: 70%;
+		margin: auto;
+	}
+	.banner-heading-interview {
+		font-size: 50px;
+	}
+	.yellow-text-interview {
+		font-size: 100px;
+	}
+	.bg-top {
+	top: -20px;
+	left: 5px;
+}
+
+.bg-bottom {
+	right: 5px;
+	bottom: -30px;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+	.banner-heading {
+		font-size: 100px;
+	}
+	.yellow-text {
+		font-size: 190px;
+	}
+	.nav-item {
+		padding: 0 15px;
+	}
+	.footer-podcast-join {
+		flex-direction: column;
+	}	
+	.container-misc {
+		flex-direction: column;
+	}
+	.misc-list {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.banner-heading {
+		font-size: 80px;
+	}
+	.yellow-text {
+		font-size: 170px;
+	}
+	.form {
+		flex-direction: column;
+		width: 45%;
+		margin: auto;
+	}
+	.button {
+		max-width: 331px;
+		width: 100%;
+	}
+	.footer-podcast-join {
+		flex-direction: column;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.banner-heading {
+		font-size: 70px;
+	}
+	.yellow-text {
+		font-size: 150px;
+	}
+	.podcasts-list {
+		padding: 20px;
+	}
+	.podcasts-item {
+		width: 100%;
+	}
+	.banner-heading-interview {
+		font-size: 50px;
+	}
+	.yellow-text-interview {
+		font-size: 90px;
+	}
+	.bg {
+		display: none;
+	}
+	.form {
+		width: 55%;
+	}
+	.footer-bottom {
+		flex-direction: column;
+	}
+	.footer-nav-list {
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.banner-heading {
+		font-size: 60px;
+	}
+	.yellow-text {
+		font-size: 80px;
+	}
+	.nav {
+		display: none;
+	}
+	.misc-footer-list {
+		flex-direction: column;
+	}
+	.footer-podcast-content {
+		flex-direction: column;
+	}
+	.wealth-self-img {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.banner-heading {
+		font-size: 50px;
+		padding-left: 10%;
+	}
+	.yellow-text {
+		font-size: 70px;
+	}
+	.form {
+		width: 75%;
+	}
+	.button-learn-more {
+		padding: 20px 30px;
+	}
+	.footer-podcast-link {
+		padding: 15px 50px;
+	}
+
+	.footer-nav-item {
+		display: block;
+		text-align: center;
+		padding: 10px;
+	}
+	.footer-nav-link {
+		border: none;
+	}
+	.banner-heading-interview {
+	padding-left: 10%;
+}
+
+
+@media screen and (max-width: 320px) {
+	.social-item {
+		padding: 1px;
+	}
+}

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500");
+
+@font-face {
+	font-family: "Traveler";
+	src: url("../fonts/Traveler-Bold.eot");
+	src: url("../fonts/Traveler-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Traveler-Bold.woff") format("woff"),
+		url("../fonts/Traveler-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}

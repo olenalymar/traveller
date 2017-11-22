@@ -1,0 +1,111 @@
+.misc {
+	background-color: #fafafa;
+}
+
+.container-misc {
+	padding-top: 65px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.misc-list {
+	width: 50%;
+}
+
+
+.misc-list-left {
+	padding-top: 150px;
+	padding-right: 30px;
+}
+
+
+.misc-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 38px 0;
+	transition: filter .4s;
+	position: relative;
+	z-index: 1;
+}
+
+.misc-item-img {
+	max-width: 569px;
+	width: 100%;
+}
+
+.misc-item:hover {
+	filter: grayscale(1);
+	cursor: pointer;
+}
+
+.misc-item-podcast {
+	background: url("../images/podcast.jpg") no-repeat;
+}
+
+.misc-item-gear {
+	background: url("../images/gear.jpg") no-repeat;
+}
+
+.misc-item-photos {
+	background: url("../images/photos.jpg") no-repeat;
+}
+
+.misc-item-blog {
+	background: url("../images/blog.jpg") no-repeat;
+}
+
+.misc-item-mission {
+	background: url("../images/mission.jpg") no-repeat;
+}
+
+.misc-item-text {
+	display: block;
+	padding-top: 65px;
+	padding-left: 40px;
+	min-height: 382px;
+}
+
+.text-misc {
+	text-align: right;
+}
+
+.misc-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 195px;
+	height: 60px;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: rgba(255, 255, 255, .2);
+	transition: color .3s, background-color .3s;
+}
+
+.misc-link:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.bg {
+	position: absolute;
+	width: 682px;
+	height: 553px;
+}
+
+.bg-top {
+	background: url("../images/misc-bg-top.png") no-repeat;
+	top: -30px;
+	left: -77px;
+}
+
+.bg-bottom {
+	background: url("../images/misc-bg-bottom.png") no-repeat;
+	right: -30px;
+	bottom: -77px;
+}
